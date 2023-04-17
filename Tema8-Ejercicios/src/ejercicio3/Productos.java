@@ -30,4 +30,11 @@ public class Productos {
 		result=precio*cantidad;
 		return result;
 	}
+
+	@Override
+	public String toString() {
+		return "nombre=" + nombre + ", precio=" + precio;
+	}
+	
+	
 }

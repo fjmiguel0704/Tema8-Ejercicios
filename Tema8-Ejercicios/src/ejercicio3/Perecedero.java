@@ -30,4 +30,11 @@ public class Perecedero extends Productos{
 		
 		return precio;
 	}
+
+	@Override
+	public String toString() {
+		return super.toString()+", Dias a caducar=" + diasCaducar;
+	}
+	
+	
 }

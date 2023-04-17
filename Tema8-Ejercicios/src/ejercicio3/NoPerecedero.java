@@ -19,5 +19,12 @@ public class NoPerecedero extends Productos {
 	double calcular(int cantidad) {
 		return super.calcular(cantidad);
 	}
+
+	@Override
+	public String toString() {
+		return super.toString()+ ", Tipo=" + tipo;
+	}
+	
+	
 	
 }
