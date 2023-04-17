@@ -8,6 +8,7 @@ public class Main {
 		Productos [] productos = new Productos [10];
 
 	productos[0]=new NoPerecedero("Galletas",2.15, "Maria");
+	productos[1]=new NoPerecedero("Café",4.5, "Mocca");
 	productos[2] = new NoPerecedero("Aceite", 5.99, "Girasol");
 	productos[3] = new NoPerecedero("Leche", 2.99, "Entera");
 	productos[4] = new NoPerecedero("Cacao", 6.99, "En Polvo");
