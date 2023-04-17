@@ -22,6 +22,7 @@ public class Main {
 	//System.out.println(Arrays.toString(productos));
 	for (Productos valores : productos) {
 		System.out.println(valores);
+		System.out.println("--------------------------------------------------");
 	}
 
 }}
