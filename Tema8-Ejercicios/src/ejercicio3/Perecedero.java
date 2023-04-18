@@ -17,18 +17,19 @@ public class Perecedero extends Productos{
 	}
 	
 	double calcular(int cantidad) {
-		super.calcular(cantidad);
+		double result = super.calcular(cantidad); 
+		
 		if (diasCaducar==1) {
-			precio=precio/4;
+			result/=4;
 		} 
 		if (diasCaducar==2) {
-			precio=precio/3;
+			result/=3;
 		}
 		if (diasCaducar==3) {
-			precio=precio/2;
+			result/=2;
 		}
 		
-		return precio;
+		return result;
 	}
 
 	@Override

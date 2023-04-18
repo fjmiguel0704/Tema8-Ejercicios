@@ -4,6 +4,10 @@ public class Productos {
 	String nombre;
 	double precio;
 	
+	public Productos() {
+		
+	}
+	
 	public Productos(String nombre, double precio) {
 		this.nombre = nombre;
 		this.precio = precio;
@@ -33,7 +37,7 @@ public class Productos {
 
 	@Override
 	public String toString() {
-		return "nombre=" + nombre + ", precio=" + precio;
+		return "Nombre=" + nombre + ", Precio=" + precio;
 	}
 	
 	
