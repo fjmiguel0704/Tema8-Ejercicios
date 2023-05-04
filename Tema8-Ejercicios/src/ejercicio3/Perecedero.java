@@ -1,6 +1,7 @@
 package ejercicio3;
 
 public class Perecedero extends Productos {
+	
 	/**
 	 * Guardará el tiempo de días a caducar del producto
 	 */

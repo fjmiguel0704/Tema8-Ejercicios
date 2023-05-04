@@ -1,6 +1,7 @@
 package ejercicio3;
 
 public class NoPerecedero extends Productos {
+	
 	/**
 	 * Guardará el tipo de comida que no caduca
 	 */

@@ -1,6 +1,7 @@
 package ejercicio3;
 
 public class Productos {
+	
 	/**
 	 * Guardará el nombre del producto
 	 */
